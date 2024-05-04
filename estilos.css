@@ -35,7 +35,7 @@ header {
 
 h1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight:900;
+    font-weight:90;
 }
  
   
@@ -44,16 +44,19 @@ nav {
 padding-left: 20%;
   }
    
-  nav ul {
-    list-style:none;
-    overflow: hidden; 
-  }
+ nav ul{
+
+  background-color:#bfa25e ;/*color de fondo con color picker*/
+  width: 100%;
+  list-style-type: none;/*si coloca numero o punto a la lista*/
+  text-align: center;/*centra la lista*/
+}
   
-  nav ul li { 
-    border-radius: 15%;
-    float: left;
+  nav ul li { /*/*/
+    
+    float:inline-start;
     font-family:'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 50px;
   }
   .chefH img{/* neon imagen logo*/
     width: 900;
@@ -64,17 +67,17 @@ padding-left: 20%;
   }   
 
   nav ul li a {
-    font-size: 100%;
+    font-size: 50%;
     display:grid;
     padding: 100px;
     color: #fffcfc;
     text-decoration:solid;
+   
   }
-  nav ul li:hover {
-    background:#8d8c8c;
-    
-    ;
-    
+  nav ul li a:hover {
+   
+   scale: 150%;
+     
   }
   .chefH {margin: auto;
     padding: 1%;
