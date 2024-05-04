@@ -210,12 +210,14 @@ main .sobre-nosotros{
     padding: 2px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 5px;
+    gap: 10px;
 }
 
 .contenido-textos p{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
+    gap: 10px; ;
 }
 .div mi{
   display: flex;
