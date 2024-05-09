@@ -232,3 +232,72 @@ padding: 10rem;
 display:grid;
 
 }
+
+/* estoy probando grid en la seccion recetas */
+.container{
+  display: grid;
+  background-image:url(img/fondo\ madera.avif);
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 300px;
+}
+ .itemA{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 10px;
+ }
+ .itemB{
+  text-align:right;
+  padding: 10px;
+  margin: 10px;
+  background-color:#f5b45e;
+  border-style:groove;
+  font-size: 25px;
+  text-align: center;
+
+ }
+ .itemc{
+  background-color:#8d4925;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  font-size: 25px;
+ }
+ .itemD{
+  background-color:#f5b45e;
+  margin: 10px;
+ }
+ .itemE{
+  background-color:#f5b45e;
+  text-align:center;
+  margin: 10px;
+ }
+ .itemF{
+  background-color:#f5b45e;
+  text-align:center;
+  margin: 10px;
+ }
+ .itemG{
+  background-color:#f5b45e;
+  text-align:center;
+  margin: 10px;
+ }
+ .itemH{
+  background-color:#f5b45e;
+  text-align:center;
+  margin: 10px;
+ }
+ .itemI{
+  background-color:#f5b45e;
+  text-align:center;
+  margin: 10px;
+ }
+ .itemJ{
+  background-color: #f5b45e;
+  margin: 10px;
+ }
+ .itemK{
+  background-color: #f5b45e;
+  margin: 10px;
+  text-align: center;
+ }
+ 
