@@ -108,6 +108,8 @@ nav ul li a:hover {
   padding: auto;
   margin: auto;
   text-align: center;
+  min-width: 300px;
+  flex:1;
 }
 h2{
   font-size: 300%;
